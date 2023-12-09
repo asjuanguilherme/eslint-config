@@ -16,7 +16,7 @@
     "prepare": "husky install",
     "format": "prettier --write .",
     "lint": "eslint .",
-    "prepublishOnly": "lint"
+    "prepublishOnly": "npm run lint"
   },
   "devDependencies": {
     "@asjuanguilherme/prettier-config": "^1.0.0",
