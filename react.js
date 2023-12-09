@@ -1,6 +1,6 @@
 /** @type {import("eslint").ESLint.ConfigData} */
 module.exports = {
-  extends: ['base.js', 'plugin:react/recommended'],
+  extends: ['./base.js', 'plugin:react/recommended'],
   plugins: ['react', 'react-hooks'],
   rules: {
     'react/react-in-jsx-scope': 'error',
