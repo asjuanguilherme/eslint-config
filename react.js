@@ -13,7 +13,6 @@ module.exports = {
     'react/no-multi-comp': 'error',
     'react/jsx-sort-props': 'error',
     'react/jsx-props-no-multi-spaces': 'error',
-    'react/jsx-handler-names': 'warn',
     'react/jsx-key': 'error',
     'react/no-unsafe': 'warn',
     'react/no-unused-state': 'warn',
