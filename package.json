@@ -7,6 +7,9 @@
     "email": "asjuanguilherme@gmail.com",
     "url": "https://juanguilher.me"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "ISC",
   "repository": {
     "type": "git",
