@@ -44,8 +44,9 @@ module.exports = {
         newlinesBetween: 'always',
         groups: [
           ['/^next/', '/^react/'],
-          'module',
+          ['/^styled-components/', '/^polished/'],
           'type',
+          'module',
           '/lib/',
           '/hooks/',
           '/contexts/',
