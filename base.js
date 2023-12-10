@@ -27,32 +27,28 @@ module.exports = {
   },
   plugins: ['@typescript-eslint', 'prettier', 'eslint-plugin-import-helpers'],
   rules: {
-    '@typescript-eslint/naming-convention': [
-      'error',
-      {
-        selector: 'interface',
-        format: ['PascalCase'],
-        custom: {
-          regex: '^I[A-Z]',
-          match: true,
-        },
-      },
-    ],
+    '@typescript-eslint/ban-types': 'off',
+    'no-useless-escape': 'off',
+    '@typescript-eslint/no-unused-vars': 'warn',
+    'no-case-declarations': 'off',
+    'no-empty-pattern': 'off',
+    '@typescript-eslint/ban-ts-comment': 'off',
     'import-helpers/order-imports': [
       'warn',
       {
         newlinesBetween: 'always',
         groups: [
+          'type',
+          '/.css$/',
           ['/^next/', '/^react/'],
           ['/^styled-components/', '/^polished/'],
-          'type',
+          '/^@asjuanguilherme/',
           'module',
           '/lib/',
           '/hooks/',
           '/contexts/',
           ['/components/', '/icons/'],
           'parent',
-          '/styles/',
           ['sibling', 'index'],
         ],
         alphabetize: { order: 'asc', ignoreCase: true },
