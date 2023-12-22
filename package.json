@@ -1,6 +1,6 @@
 {
   "name": "@asjuanguilherme/eslint-config",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Common ESLint configuration for my projects",
   "author": {
     "name": "Juan Guilherme",
@@ -37,9 +37,6 @@
   "peerDependencies": {
     "eslint": ">=8.x.x",
     "prettier": ">=3.x.x"
-  },
-  "engines": {
-    "node": ">=18.0.0"
   },
   "keywords": [
     "eslint",
